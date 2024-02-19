@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #df2935;
+  --branding-color: #A288E3;
   --highlight-color: #f7fff7;
   --secondary-color: #090302;
   --heading-font: "merriweather", serif;
@@ -69,7 +69,6 @@ p {
 }
 
 .btn-outline {
-  background-color: var(--highlight-color);
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 10px;
@@ -142,4 +141,20 @@ p {
     66% {margin-top: -100px;}
     73% {margin-top: 0px;}
     100% {margin-top: 0px;}
+}
+
+.change {
+    -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {color: #85C7F2;}
+    15% {color: #CC444B;}
+    29% {color: #D90368;}
+    41% {color: #EDBFB7;}
+    57% {color: #A288E3;}
+    69% {color: #3E92CC;}
+    81% {color: #40F99B;}
+    93% {color: #5F4BB6;}
+    100% {color: #931F1D;}
 }

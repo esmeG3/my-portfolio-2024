@@ -1,28 +1,49 @@
-.hero {
-    background-color: #F7FFF7;
-    text-align: center;
+:root {
+    --branding-color: #DF2935;
+    --highlight-color: #f7fff7;
+    --secondary-color: #090302;
+    --heading-font: "merriweather", serif;
+    --body-font: "cadro", serif;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "merriweather";
-    color: #0d0a0b;
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
+p {
+    font-family: var(--body-font);
+}
+
+.hero {
+    background-color: var(--highlight-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+
 .hero h1 {
 font-size: 72px;
+font-weight: 500;
 }
 
 .hero h2 {
     opacity: 0.8;
     font-size: 24px;
-}
+    line-height: 2;
+    }
 
 .hero p {
-font-family: "cadro";
 opacity: 0.8;
 font-size: 28px;
+margin: 0px;
 }
 
 .btn-branding {
-    background-color: #DF2935;
-    color: #F7FFF7;
+    background-color: var(--branding-color);
+    color: var(--highlight-color);
+    font-family: var(--body-font);
+    font-style: italic;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-size: 18px;
 }

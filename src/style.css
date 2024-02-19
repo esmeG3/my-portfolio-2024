@@ -21,9 +21,11 @@ h6 {
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 38px;
   font-weight: 600;
   padding: 20px;
+  font-family: var(--body-font);
+  line-height: 1.5;
 }
 
 p {

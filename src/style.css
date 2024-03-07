@@ -23,7 +23,6 @@ h6 {
 h2 {
   font-size: 38px;
   font-weight: 600;
-  padding: 20px;
   font-family: var(--body-font);
   line-height: 1.5;
 }
@@ -46,7 +45,8 @@ p {
 
 .hero h2 {
   opacity: 0.8;
-  font-size: 24px;
+  font-size: 24px;  
+  padding: 20px;
   line-height: 2;
 }
 
@@ -90,23 +90,21 @@ p {
   }
 }
 
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 160px auto;
-
+.about {
+    margin: 120px 20px;
 }
 
+
+
+
 .slider-wrapper {
-    font-size: 40px;
+    font-size: 28px;
     color: #aaa;
     font-weight: 500;
     text-transform: uppercase;
-    align-items: center;
-    justify-content: center;
     display: flex;
-    color: var(--secondary-color);
+    color: var(--secondary-color);    
+    font-family: var(--heading-font);
 }
 
 .slider {

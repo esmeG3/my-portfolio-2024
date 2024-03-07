@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #A288E3;
+  --branding-color: #a288e3;
   --highlight-color: #f7fff7;
   --secondary-color: #090302;
   --heading-font: "merriweather", serif;
@@ -30,7 +30,8 @@ h2 {
 p {
   font-family: var(--body-font);
   line-height: 30px;
-  font-size: 18px;
+  font-size: 18px;  
+  opacity: 0.8;
 }
 
 .hero {
@@ -44,8 +45,8 @@ p {
 }
 
 .hero h2 {
-  opacity: 0.8;
-  font-size: 24px;  
+
+  font-size: 24px;
   padding: 20px;
   line-height: 2;
 }
@@ -78,83 +79,147 @@ p {
   font-size: 16px;
 }
 
+.intext-links {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+:hover.intext-links {
+  cursor: pointer;
+  color: #edbfb7;
+}
+
+
 .fa-solid {
   color: var(--branding-color);
   font-size: 22px;
 }
+
+.about {
+  padding: 120px 100px;
+}
+.about h1 {
+  font-size: 62px;
+}
+
+
+.about-info {
+  padding-top: 120px;
+}
+
 
 @media (max-width: 768px) {
   .hero h2 {
     line-height: 1.5;
     font-weight: 300;
   }
+  img {
+  padding: 20px;
+  }
 }
-
-.about {
-    margin: 120px 20px;
+@media (max-width:1350px) {
+  .slider {
+    display: none;
+  }
+  .about-info h1 {
+    color: var(--branding-color);
+  }
+.about-info {
+  padding-top: 10px;
 }
-
-
-
+}
 
 .slider-wrapper {
-    font-size: 28px;
-    color: #aaa;
-    font-weight: 500;
-    text-transform: uppercase;
-    display: flex;
-    color: var(--secondary-color);    
-    font-family: var(--heading-font);
+  margin-inline-start: 180px;
+  font-size: 28px;
+  color: #aaa;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  color: var(--secondary-color);
+  font-family: var(--heading-font);
 }
 
 .slider {
-    height: 50px;
-    padding-left: 15px;
-    overflow: hidden;
+  height: 50px;
+  padding-left: 15px;
+  overflow: hidden;
 }
 
 .slider div {
-    color: var(--highlight-color);
-    height: 50px;
-    margin-bottom: 50px;
-    padding: 2px 15px;
-    text-align: center;
-    box-sizing: border-box;
+  color: var(--highlight-color);
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .slider-text1 {
-    background-color: #40F99B;
-    animation: slide 6s linear infinite;
+  background-color: #40f99b;
+  animation: slide 6s linear infinite;
 }
 .slider-text2 {
-    background-color: #EDBFB7;
+  background-color: #edbfb7;
 }
 .slider-text3 {
-    background-color: #A288E3;
+  background-color: #a288e3;
 }
 
 @keyframes slide {
-    0% {margin-top:-300px}
-    5% {margin-top: -200px;}
-    33% {margin-top: -200px;}
-    38% {margin-top: -100px;}
-    66% {margin-top: -100px;}
-    73% {margin-top: 0px;}
-    100% {margin-top: 0px;}
+  0% {
+    margin-top: -300px;
+  }
+  5% {
+    margin-top: -200px;
+  }
+  33% {
+    margin-top: -200px;
+  }
+  38% {
+    margin-top: -100px;
+  }
+  66% {
+    margin-top: -100px;
+  }
+  73% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 0px;
+  }
 }
 
 .change {
-    -webkit-animation: colorchange 20s infinite alternate;
+  -webkit-animation: colorchange 20s infinite alternate;
 }
 
 @-webkit-keyframes colorchange {
-    0% {color: #85C7F2;}
-    15% {color: #CC444B;}
-    29% {color: #D90368;}
-    41% {color: #EDBFB7;}
-    57% {color: #A288E3;}
-    69% {color: #3E92CC;}
-    81% {color: #40F99B;}
-    93% {color: #5F4BB6;}
-    100% {color: #931F1D;}
+  0% {
+    color: #85c7f2;
+  }
+  15% {
+    color: #cc444b;
+  }
+  29% {
+    color: #d90368;
+  }
+  41% {
+    color: #edbfb7;
+  }
+  57% {
+    color: #a288e3;
+  }
+  69% {
+    color: #3e92cc;
+  }
+  81% {
+    color: #40f99b;
+  }
+  93% {
+    color: #5f4bb6;
+  }
+  100% {
+    color: #931f1d;
+  }
 }

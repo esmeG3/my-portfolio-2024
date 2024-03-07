@@ -95,10 +95,10 @@ p {
   font-size: 22px;
 }
 
-.about {
+.content-container {
   padding: 120px 100px;
 }
-.about h1 {
+.content-container h1 {
   font-size: 62px;
 }
 

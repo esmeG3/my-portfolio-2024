@@ -1,6 +1,6 @@
 :root {
   --branding-color: #a288e3;
-  --highlight-color: #f7fff2;
+  --highlight-color: #FAF9F6;
   --secondary-color: #090302;
   --heading-font: "merriweather", serif;
   --body-font: "cadro", serif;
@@ -45,7 +45,6 @@ p {
 }
 
 .hero h2 {
-
   font-size: 24px;
   padding: 20px;
   line-height: 2;
@@ -90,7 +89,7 @@ p {
 }
 
 
-.fa-solid {
+.fa-solid, .fa-brands, .fa-regular {
   color: var(--branding-color);
   font-size: 22px;
 }
@@ -98,6 +97,7 @@ p {
 .content-container {
   padding: 120px 100px;
 }
+
 .about h1 {
   font-size: 62px;
 }
@@ -106,6 +106,8 @@ p {
 .about-info {
   padding-top: 120px;
 }
+
+
 
 .content-inner h1 {
   padding: 20px 0;
@@ -122,6 +124,10 @@ font-size: 24px;
 
 .content-inner p {
   font-size: 18px;
+}
+
+.contact-inner {
+  text-align: center;
 }
 
 @media (max-width: 768px) {

@@ -33,9 +33,6 @@ p {
   font-size: 18px;
   opacity: 0.8;
 }
-.eg-logo {
-  max-width: 55px;
-}
 
 nav li {
   display: inline;
@@ -163,9 +160,7 @@ nav {
   img {
     padding: 20px;
   }
-  .eg-logo {
-    display: none;
-  }
+
   nav a {
     text-align: center;
     font-size: 14px;

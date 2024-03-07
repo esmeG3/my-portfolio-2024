@@ -1,6 +1,6 @@
 :root {
   --branding-color: #a288e3;
-  --highlight-color: #f7fff7;
+  --highlight-color: #f7fff2;
   --secondary-color: #090302;
   --heading-font: "merriweather", serif;
   --body-font: "cadro", serif;
@@ -98,7 +98,7 @@ p {
 .content-container {
   padding: 120px 100px;
 }
-.content-container h1 {
+.about h1 {
   font-size: 62px;
 }
 
@@ -107,6 +107,18 @@ p {
   padding-top: 120px;
 }
 
+.content-inner h1 {
+  padding: 20px 0;
+}
+
+.content-inner h3 {
+margin-top: 15px;
+font-size: 24px;
+}
+
+.content-inner p {
+  font-size: 18px;
+}
 
 @media (max-width: 768px) {
   .hero h2 {
@@ -117,6 +129,7 @@ p {
   padding: 20px;
   }
 }
+
 @media (max-width:1350px) {
   .slider {
     display: none;

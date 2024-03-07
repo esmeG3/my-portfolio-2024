@@ -116,6 +116,10 @@ margin-top: 15px;
 font-size: 24px;
 }
 
+.content-inner img {
+  box-shadow: 0 6.4px 14.4px 0 rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
+}
+
 .content-inner p {
   font-size: 18px;
 }
@@ -141,7 +145,7 @@ font-size: 24px;
   padding-top: 10px;
 }
 }
-
+/* This is for the transition on about page */ 
 .slider-wrapper {
   margin-inline-start: 180px;
   font-size: 28px;
@@ -178,6 +182,8 @@ font-size: 24px;
 .slider-text3 {
   background-color: #a288e3;
 }
+
+/* this is for h1 transition on homepage */
 
 @keyframes slide {
   0% {
@@ -235,4 +241,12 @@ font-size: 24px;
   100% {
     color: #931f1d;
   }
+}
+
+/* This is for the hover over image on work page */
+
+.shadow-image:hover {
+  transform: scale(1.02);
+  transition: ease-in-out ;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 8px 16px 0px;
 }

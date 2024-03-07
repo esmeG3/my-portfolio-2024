@@ -34,6 +34,20 @@ p {
   opacity: 0.8;
 }
 
+
+.eg-logo {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+nav ul {
+  padding: 0;
+}
+
 .hero {
   background-color: var(--highlight-color);
   padding: 160px 20px;

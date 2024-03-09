@@ -174,8 +174,10 @@ footer p {
   margin: 0;
 }
 
-footer .intext-links {
-  font-weight: 500;
+footer .intext-links a {
+font-weight: 500;
+ padding: 20px;
+ margin-right: 30px;
 }
 
 .social-links {
@@ -199,6 +201,10 @@ footer .social-links:hover {
   .hero h2 {
     line-height: 1.5;
     font-weight: 300;
+    font-size: 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
   }
 
   h4 {
@@ -206,9 +212,8 @@ footer .social-links:hover {
   
   }
   .project-description {
-    padding: 30px; 
-    margin: 0;
-    text-align: center;
+    padding: 30px 40px; 
+    margin: 0 30px;
   }
 
   img {

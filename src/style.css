@@ -170,8 +170,8 @@ footer .contact-box {
   border-radius: 15px;
 }
 
-footer p {
-  margin: 0;
+footer .last-line{
+  font-size: 12px;
 }
 
 footer .intext-links a {

@@ -58,11 +58,12 @@ nav li.active a {
 }
 nav {
   background-color: var(--highlight-color);
+  max-width: 100%;
 }
 
 .hero {
   background-color: var(--highlight-color);
-  padding: 160px 0px;
+  padding: 150px 0px;
 
 }
 
